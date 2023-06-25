@@ -1,0 +1,37 @@
+[2023-06-26 00:11:44:1327412][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-06-26 00:11:44:1327418][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2023-06-26 00:11:45:1327434][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[2023-06-26 00:11:50:780][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+[2023-06-26 00:11:50:780][main] INFO  c.s.v.ValidExceptionApplication - Starting ValidExceptionApplication using Java 11.0.19 on WINDOWS-63P2V30 with PID 12460 (D:\user\Desktop\zerobase\book\valid_exception\target\classes started by Administrator in D:\user\Desktop\zerobase\book\valid_exception)
+[2023-06-26 00:11:50:787][main] INFO  c.s.v.ValidExceptionApplication - No active profile set, falling back to default profiles: default
+[2023-06-26 00:11:51:1552][main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-06-26 00:11:51:1597][main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+[2023-06-26 00:11:51:2003][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[2023-06-26 00:11:51:2010][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-06-26 00:11:51:2010][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-06-26 00:11:51:2010][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[2023-06-26 00:11:51:2086][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-06-26 00:11:51:2087][main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1262 ms
+[2023-06-26 00:11:52:2184][main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-06-26 00:11:52:2237][main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2023-06-26 00:11:52:2349][main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-06-26 00:11:52:2418][main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2023-06-26 00:11:52:2689][main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2023-06-26 00:11:52:2700][main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[2023-06-26 00:11:53:3173][main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-06-26 00:11:53:3179][main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-06-26 00:11:53:3582][main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-06-26 00:11:53:3698][main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-06-26 00:11:53:3986][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[2023-06-26 00:11:53:4007][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-06-26 00:11:53:4008][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[2023-06-26 00:11:53:4024][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[2023-06-26 00:11:53:4052][main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[2023-06-26 00:11:54:4215][main] INFO  c.s.v.ValidExceptionApplication - Started ValidExceptionApplication in 4.022 seconds (JVM running for 5.216)
+[2023-06-26 00:11:58:8409][http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-26 00:11:58:8410][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-06-26 00:11:58:8411][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[2023-06-26 00:12:04:14598][http-nio-8080-exec-8] ERROR c.s.v.c.e.CustomExceptionHandler - Advice 내 handleException 호출, /exception/custom, Product Exception. getCustomException 메서드 호출
+[2023-06-26 00:12:32:42216][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-06-26 00:12:32:42218][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2023-06-26 00:12:32:42236][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
